@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background: #111;
+}
+.banner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #e91e63;
+    clip-path: circle(0px at center center);
+}
+
+.container{
+    position: relative;
+    margin-top: 200vh;
+    padding: 100px;
+    background: #111;
+}
+.container h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.container p{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}   

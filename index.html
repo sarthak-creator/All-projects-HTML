@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner">
+        <video src="/cockatoo.mp4" autoplay muted loop></video>
+    </section>
+    <div class="container">
+        <h2>Scroll to see Magic Again</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia architecto, quae qui ipsam quidem. Excepturi a similique deserunt iure. A, magni rem praesentium minima maiores ipsam ex est laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia architecto, quae qui ipsam quidem. Excepturi a similique deserunt iure. A, magni rem praesentium minima maiores ipsam ex est laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia architecto, quae qui ipsam quidem. Excepturi a similique deserunt iure. A, magni rem praesentium minima maiores ipsam ex est laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia architecto, quae qui ipsam quidem. Excepturi a similique deserunt iure. A, magni rem praesentium minima maiores ipsam ex est laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia architecto, quae qui ipsam quidem. Excepturi a similique deserunt iure. A, magni rem praesentium minima maiores ipsam ex est laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia architecto, quae qui ipsam quidem. Excepturi a similique deserunt iure. A, magni rem praesentium minima maiores ipsam ex est laudantium.</p>
+    </div>
+
+    <script>
+        const banner = document.querySelector(".banner");
+        window.addEventListener("scroll", function() {
+            const value = 800 -  window.scrollY;
+            banner.style.clipPath = "circle(" + value + "px at center center)";
+        })
+    </script>
+</body>
+</html>
